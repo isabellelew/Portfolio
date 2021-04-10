@@ -3,3 +3,17 @@
     font-family: 'Courier New', Courier, monospace;
     scroll-behavior:smooth;
 }
+
+h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul {
+    text-align: right;
+    margin-right: 20px;
+}
+
+li {
+    display:inline;
+}
