@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 h1 {
     text-align: left;
     margin-left: 20px;
@@ -16,14 +20,21 @@ ul {
 
 li {
     display: inline;
+    text-decoration: underline;
 }
-
-main,
+#mywork,
+#contact,
 footer {
     text-align: center;
-    margin: 40px;
 }
 
-#contact {
-    text-align: left;
+#img1 {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.images {
+    display:flex;
+    flex-wrap:wrap;
 }
