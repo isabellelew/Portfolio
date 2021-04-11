@@ -52,11 +52,17 @@ height: 400px;
 
 @media screen and (max-width:992px) {
   *{
-    background: palegreen;
+    background: paleturquoise;
   }
-}@media screen and (max-width: 678px) {
+
+}
+@media screen and (max-width: 678px) {
    * {
     background: palegoldenrod;
+    }
+
+    nav li {
+        display: block;
     }
 }
 
