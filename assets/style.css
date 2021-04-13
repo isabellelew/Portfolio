@@ -1,73 +1,89 @@
+/* styles for entire page */
 * {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     scroll-behavior: smooth;
 }
 
+/* styles for home button */
 #homebutton {
     text-decoration: none;
     color: black;
 }
 
-h1 {
-    text-align: left;
+/* styles for homebutton h1 */
+#homebutton h1 {
     margin-left: 20px;
 }
 
+/* styles for list */
 ul {
     text-align: right;
     margin-right: 20px;
 }
 
+/* styles for list items */
 li {
     display: inline;
     text-decoration: underline;
 }
 
+/* styles for main & footer */
 main,
-#mywork,
-#contact,
 footer {
     text-align: center;
     margin: 40px;
 }
-
-p {
-    margin-left: 40px;
-    margin-right: 40px;
-}
   
+/* styles for figure */
 figure {
     display: inline-block;
     margin: 20px;
 }
+
+/* styles for figure img */
 figure img {
     vertical-align: top;
 }
+
+/* styles for figure caption */
 figure figcaption {
     text-align: center;
 }
 
+/* styles for first main img */
 #img1 {
     width: 500px;
     height: 500px;
-    border: 5px solid gray;
+    border: 2px solid gray;
 }
 
+/* styles for rest of images*/
  .images {
     width: 300px;
     height: 300px;
-    border: 5px solid gray;
-   
+    border: 2px solid gray;
 }
-    
 
+#contact {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+        display: block;
+}
+
+/* styles when screen is under 992px */
 @media screen and (max-width:992px) {
   *{
     background: paleturquoise;
   }
 
 }
+
+/* styles when screen is under 678px */
 @media screen and (max-width: 678px) {
    * {
     background: palegoldenrod;
